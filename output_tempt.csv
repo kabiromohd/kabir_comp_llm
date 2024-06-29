@@ -1,0 +1,295 @@
+problem_id,problem_text,answer
+11919,Find the value of the expression \(4.8 \cdot 2.5\)., answer: 12.0
+8513,"The plane's navigation system informs the passenger that the flight is at an altitude of 37,000 feet. Express the flight altitude in meters. Assume that 1 foot is equal to 30.5 cm."," PROBLEM_TEXT: The plane's navigation system informs the passenger that the flight is at an altitude of 37,000 feet. Express the flight altitude in meters. Assume that 1 foot is equal to 30.5 cm.
+
+CONTEXT: None directly related to converting units from feet to meters. However, we can use basic unit conversion knowledge for this problem.
+
+Solution: To convert feet into meters, we know that 1 meter equals approximately 3280.84 feet (since 1 foot = 0.3048 meters). Therefore, the altitude in meters is calculated as follows:
+
+Altitude in meters = Altitude in feet * (1 meter / 3280.84 feet)
+                   = 37,000 feet * (1/3280.84)
+                   ≈ 113.96 meters
+
+So the flight altitude is approximately 113.96 meters."
+7887,"The volume of a rectangular parallelepiped is calculated using the formula $V=abc$, where $a$, $b$, and $c$ are the lengths of the three edges meeting at one vertex. Using this formula, find $a$ if $V=70$, $b=5$, and $c=3.5$."," Given that $V=70$, $b=5$, and $c=3.5$, we can use the formula for the volume of a rectangular parallelepiped, which is $V=abc$. We need to find the value of $a$ in this equation.
+
+Substitute the given values into the formula:
+
+\[70 = a \cdot 5 \cdot 3.5\]
+
+Now, solve for $a$:
+
+\[a = \frac{70}{5 \cdot 3.5}\]
+
+\[a = \frac{70}{17.5}\]
+
+\[a = 4\]
+
+So, the value of $a$ is 4."
+5272,Find the root of the equation: $\left(\dfrac{1}{8} \right)^{4 - x} =64$.," problem_text: Find the root of the equation $\left(\dfrac{1}{8} \right)^{4 - x} =64$.
+answer: 3"
+8295,"At the school, there are two-person camping tents. What is the minimum number of tents needed for a trip involving 25 people?"," Based on the CONTEXT provided, for a trip involving 25 people with two-person camping tents, the minimum number of tents needed would be 13. However, since we need to base our answer solely on the given context, it's important to note that none directly addresses this specific problem. The closest related information is about calculating percentages and proportions which could conceptually apply here but doesn't provide a direct numerical solution for tents needed based on the CONTEXT provided.
+
+Given the constraints of strictly adhering to the provided context, it seems there might have been an oversight in directly linking these examples to solve the problem as described. However, if we were to infer using principles similar to those found in the given examples (like calculating proportions), one could argue that understanding percentages and ratios is relevant here. Yet, without a direct example from the CONTEXT database specifically addressing tents needed for people, I'll clarify based on standard mathematical reasoning:
+
+To find the minimum number of two-person camping tents needed for 25 people, you divide the total number of people by the capacity of each tent. Since each tent can accommodate 2 people:
+
+\[ \text{Number of Tents} = \frac{\text{Total People}}{\text{People per Tent}} \]
+
+\[ \text{Number of Tents} = \frac{25}{2} \]
+
+This calculation results in \(12.5\), but since you can't have half a tent, you would need 13 tents to accommodate all 25 people. This solution doesn't directly match the provided context examples but follows logical mathematical reasoning based on the given problem statement."
+3219,Find the value of the expression \(5\strut^{\log_{5} 3+1}\).," The train that spends the least amount of time on the way is Train Number 3, with a travel time of 1 hour and 56 minutes."
+7235,"To make ground meat, beef and pork were taken in a ratio of 9:11. What percentage of the ground meat is pork?"," Based on the given context from the FAQ database, to find out what percentage of the ground meat is pork when beef and pork are mixed in a ratio of 9:11, you can follow these steps:
+
+First, add up the parts of the ratio (beef + pork):
+
+9 (beef) + 11 (pork) = 20 parts total.
+
+Next, to find out what percentage of the ground meat is pork, divide the number of parts for pork by the total number of parts and multiply it by 100:
+
+(11 / 20) * 100 = 55%
+
+So, 55% of the ground meat mixture consists of pork."
+3688,"A mobile phone that went on sale in February cost 2000 rubles. In May, it cost 1580 rubles. By what percentage did the price of the mobile phone decrease from February to May?"," answer: To find the original price of the mobile phone, we can use the formula for percentage decrease:
+
+Percentage Decrease = [(Original Price - New Price) / Original Price] * 100
+
+In this case, the new price is 1580 rubles and we want to find the original price (let's call it x). We can rearrange the formula as follows:
+
+x = New Price / [(1 - Percentage Decrease / 100)]
+
+We know that the percentage decrease from February to May is what we need to calculate. Since the phone cost 2000 rubles in February and 1580 rubles in May, we can plug these values into our formula:
+
+x = 1580 / [(1 - Percentage Decrease / 100)]
+
+Now, let's solve for the percentage decrease first. We know that the price decreased from 2000 rubles to 1580 rubles, so:
+
+Percentage Decrease = [(2000 - 1580) / 2000] * 100
+Percentage Decrease = (420 / 2000) * 100
+Percentage Decrease = 0.21 * 100
+Percentage Decrease = 21%
+
+Now that we have the percentage decrease, we can find the original price:
+
+x = 1580 / [(1 - 21/100)]
+x = 1580 / (0.79)
+x ≈ 2000 rubles
+
+So, the mobile phone originally cost approximately 2000 rubles in February before the price decrease to 1580 rubbles in May. The percentage decrease from February to May is 21%."
+6116,"Find a four-digit number that is a multiple of 24, the product of whose digits is 16. In your answer, provide any one such number."," 1, 2, 3, 4, 6"
+4720,"The chef baked 40 cookies, of which he sprinkled 10 cookies with cinnamon and 20 cookies with sugar. Choose the statements that are true under the given conditions.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{p{0.1cm}X}  
+1) & There will be 20 cookies sprinkled with both sugar and cinnamon. \\ 
+2) & There will be 10 cookies that are not sprinkled with anything. \\ 
+3) & There cannot be more than 10 cookies sprinkled with both sugar and cinnamon. \\ 
+4) & If a cookie is sprinkled with sugar, then it is also sprinkled with cinnamon. \\ 
+\end{tabularx}
+\end{center}
+
+In the answer, write the numbers of the chosen statements without spaces, commas, or any additional symbols."," 1,3,4"
+12122,"Masha and the Bear ate 51 cookies and a jar of jam, starting and finishing at the same time. At first, Masha was eating the jam, and the Bear was eating the cookies, but at some point, they switched. The Bear eats both four times faster than Masha. How many cookies did the Bear eat if they ate the jam equally?"," From the given context in the FAQ database, we can infer that since the Bear and Masha finished eating at the same time, their consumption rates must be proportional to each other when considering the total amount of food consumed. Let's denote the number of cookies the Bear ate as B and the number of jam jars (which is 1) as J.
+
+Given that:
+- The Bear eats four times faster than Masha, so if we let M represent the rate at which Masha eats, then the Bear's rate would be 4M.
+- They ate an equal amount of jam, so J = 1/2 (since they finished it together).
+- The total number of cookies is 51, so B + M = 51.
+
+Since their consumption rates are proportional to the time spent eating and they finish at the same time:
+Bear's rate * Bear's time = Masha's rate * Masha's time
+4M * (time) = M * (time/4)
+
+This simplifies to B = 3J, since we know J = 1/2. Therefore, the Bear ate three times as many cookies as there were jars of jam:
+B = 3 * (1/2) = 3/2 = 1.5
+
+However, this result doesn't make sense in our context because you can't eat half a cookie if we are considering whole numbers only. So let's re-evaluate the problem with the assumption that they finished eating at the same time and consumed an equal amount of jam:
+
+Since they finished the jam equally, Masha must have eaten 1/2 jar of jam while Bear also ate 1/2 jar of jam. This means there are no cookies left for them to eat since all the cookies were eaten by both together (51 - 0 = 51).
+
+Therefore, it seems that there might be an error in the problem statement as given because if they finished at the same time and ate everything equally, then Bear would not have eaten any cookies. Please check the problem details again to ensure accuracy."
+4311,Find the value of the expression \(\dfrac{\sqrt{48}}{\sqrt{3}}\).," The train that spends the least amount of time on the way is Train Number 3, with a travel time of 1 hour and 56 minutes."
+8283,"In the school, there are two-person camping tents. What is the minimum number of tents needed for a trip with 13 participants?"," answer: To accommodate 13 participants with two-person camping tents, a minimum of 7 tents are needed since 6 tents would only provide space for 12 people (6 x 2 = 12). The remaining participant would require an additional tent. Therefore, the answer is 7 tents."
+8347,"Pavel Ivanovich bought an American car, the speedometer of which shows the speed in miles per hour. What is the speed of the car in kilometers per hour if the speedometer shows 46 miles per hour? Assume that 1 mile is equal to 1609 meters. Round the answer to the nearest whole number."," Pavel Ivanovich bought an American car, and we need to convert the speed from miles per hour (mph) to kilometers per hour (km/h). We know that 1 mile is equal to 1609 meters. To find the conversion factor, we can use the following relationship:
+
+\[1 \text{ mile} = 1609 \text{ meters}\]
+
+Since there are \(1000\) meters in a kilometer, we have:
+
+\[1 \text{ mile} = \frac{1609}{1000} \text{ kilometers}\]
+
+Now, let's convert 46 mph to km/h using this conversion factor:
+
+\[\text{Speed in km/h} = 46 \times \frac{1609}{1000}\]
+
+Calculating the value gives us:
+
+\[\text{Speed in km/h} = 73.894\]
+
+Rounding to the nearest whole number, we get:
+
+\[\text{Speed in km/h} \approx 74\]
+
+So, if Pavel Ivanovich's car speedometer shows 46 mph, its speed is approximately 74 km/h when rounded to the nearest whole number."
+4170,"The surface area of a rectangular parallelepiped with edges \(a\), \(b\), and \(c\) is calculated using the formula \(S=2(ab+ac+bc)\). Find the surface area of the rectangular parallelepiped if its edges have lengths 4, 5, and 10."," To find the surface area of the rectangular parallelepiped with edges \(a=4\), \(b=5\), and \(c=10\), we use the formula \(S=2(ab+ac+bc)\). Plugging in the values, we get:
+
+\[S = 2((4)(5) + (4)(10) + (5)(10))\]
+\[S = 2(20 + 40 + 50)\]
+\[S = 2(110)\]
+\[S = 220\]
+
+So, the surface area of the rectangular parallelepiped is \(220\) square units."
+4,The speed of a stone (in m/s) falling from a height \( h \) (in m) at the moment it hits the ground can be found using the formula \( v = \sqrt{2gh} \). Find the speed (in m/s) at which a stone will hit the ground when falling from a height of 22.5 m. Assume that the acceleration due to gravity \( g \) is \( 9.8 \;\textrm{m/s}^2 \).," answer: To find the speed at which a stone will hit the ground when falling from a height of 22.5 m, we can use the given formula \( v = \sqrt{2gh} \) with \( g = 9.8 \;\textrm{m/s}^2 \) and \( h = 22.5 \;\textrm{m} \).
+
+Plugging in these values, we get:
+
+\( v = \sqrt{2 * 9.8 * 22.5} \)
+
+\( v = \sqrt{441} \)
+
+\( v = 21 \;\textrm{m/s} \)
+
+So the speed at which the stone will hit the ground is 21 m/s."
+8307,"A chocolate bar costs 20 rubles. On Sundays, the supermarket has a special offer: if you pay for two chocolate bars, you get three (one as a gift). How many chocolate bars can you get for 150 rubles on Sunday?"," Based on the given context, there isn't a direct relation to solve the problem in PROBLEM_TEXT. However, let's focus on solving it using the provided information about chocolate bars.
+
+Firstly, we need to find out how many sets of two chocolate bars can be bought with 150 rubles:
+
+Number of sets = Total money available / Cost per set
+               = 150 rubles / (2 * 20 rubles)
+               = 150 rubles / 40 rubles
+               = 3.75 sets
+
+Since we can't buy a fraction of a set, we will be able to purchase 3 full sets of two chocolate bars on Sunday:
+
+Total number of chocolate bars bought with 150 rubles = Number of sets * Chocolate bars per set
+                                                     = 3 sets * 2 chocolate bars/set
+                                                     = 6 chocolate bars
+
+Now, let's find out how many additional chocolate bars we can get as gifts:
+
+Additional chocolate bars (gift) = Number of sets - 1
+                                = 3 - 1
+                                = 2 gifted chocolate bars
+
+Total number of chocolate bars received on Sunday = Chocolate bars bought + Gifted chocolate bars
+                                                 = 6 + 2
+                                                 = 8 chocolate bars
+
+So, you can get a total of 8 chocolate bars for 150 rubles on Sunday."
+7108,"A set of towels, which cost 320 rubles, is being sold at a 15% discount. How many rubles do two sets of towels cost with the discount?"," To solve this problem, we first need to calculate the discounted price for one set of towels and then multiply that by two since you want to know the total cost for two sets.
+
+The original price for one set is 320 rubles. The discount rate is 15%. To find out how much money will be taken off, we calculate:
+
+Discount amount = Original price × Discount rate
+                 = 320 rubles × 0.15
+                 = 48 rubles
+
+Now subtract the discount from the original price to get the discounted price for one set of towels:
+
+Discounted price for one set = Original price - Discount amount
+                             = 320 rubles - 48 rubles
+                             = 272 rubles
+
+Finally, calculate the cost for two sets by multiplying the discounted price of one set by two:
+
+Cost for two sets = Discounted price for one set × 2
+                  = 272 rubles × 2
+                  = 544 rubles
+
+So, two sets of towels cost 544 rubles with the discount."
+7775,"Knowing the length of their step, a person can approximately calculate the distance they have walked \( s \) using the formula \( s=nl \), where \( n \) is the number of steps and \( l \) is the length of the step. What distance did the person walk if \( l=50 \) cm, \( n=1600 \)? Provide the answer in meters."," Based on the given formula \( s = nl \), where \( n \) represents the number of steps and \( l \) is the length of each step, we can calculate the distance walked by a person as follows:
+
+Given that \( l = 50 \) cm (which is equivalent to 0.5 meters) and \( n = 1600 \), we substitute these values into the formula:
+
+\[ s = 1600 * 0.5 \]
+
+\[ s = 800 \]
+
+So, the person walked a distance of 800 meters."
+7680,"If \( p_{1} \), \( p_{2} \), and \( p_{3} \) are distinct prime numbers, then the sum of all the divisors of the number \( p_{1} \cdot p_{2} \cdot p_{3} \) is equal to \( (p_{1} + 1)(p_{2} + 1)(p_{3} + 1) \). Find the sum of all the divisors of the number \( 110 = 2 \cdot 5 \cdot 11 \)."," PROBLEM_TEXT: If \( p_{1} \), \( p_{2} \), and \( p_{3} \) are distinct prime numbers, then the sum of all the divisors of the number \( p_{1} \cdot p_{2} \cdot p_{3} \) is equal to \( (p_{1} + 1)(p_{2} + 1)(p_3 + 1) \). Find the sum of all the divisors of the number \( 110 = 2 \cdot 5 \cdot 11 \).
+
+Based on the CONTEXT, we can solve this problem by applying the given formula. The prime numbers are \( p_{1} = 2 \), \( p_{2} = 5 \), and \( p_{3} = 11 \). Using the formula:
+
+Sum of divisors = \( (p_{1} + 1)(p_{2} + 1)(p_{3} + 1) \)
+                   = \( (2 + 1)(5 + 1)(11 + 1) \)
+                   = \( 3 \cdot 6 \cdot 12 \)
+                   = \( 216 \)
+
+However, we need to find the sum of all divisors for the number \( 110 \), not just the product. To do this, let's list out the divisors:
+
+Divisors of 110 are: 1, 2, 5, 10, 11, 22, 55, and 110.
+
+The sum of these divisors is \( 1 + 2 + 5 + 10 + 11 + 22 + 55 + 110 = 216 \).
+
+Therefore, the sum of all the divisors of the number \( 110 \) is indeed equal to \( (p_{1} + 1)(p_{2} + 1)(p_{3} + 1) \), which in this case is also \( 216 \)."
+8780,The floor of a room in the shape of a rectangle with sides of 6 m and 7 m needs to be covered with parquet made of rectangular planks with sides of 10 cm and 25 cm. How many such planks are required?," problem_text: The floor of a room in the shape of a rectangle with sides of 6 m and 7 m needs to be covered with parquet made of rectangular planks with sides of 10 cm and 25 cm. How many such planks are required?
+answer: To find out how many planks are needed, we first need to calculate the area of the room and then divide it by the area of one plank. The area of the room is \(6 m \times 7 m = 42 m^2\). The area of one plank is \(0.1 m \times 0munits^2 = 0.025 m^2\). Now, we divide the total area by the area of one plank: \(\dfrac{42}{0.025} = 1680\). Therefore, 1680 planks are required to cover the floor."
+8707,A room is illuminated by a lamp with two bulbs. The probability of one bulb burning out over the course of a year is 0.15. Find the probability that both bulbs will burn out over the course of a year.," Based on the information provided in our FAQ database, we can solve this problem using the concept of independent events in probability. When two events are independent, the probability of both occurring is found by multiplying their individual probabilities together.
+
+In this case, since one bulb burning out does not affect the other's chances of burning out (assuming they are separate bulbs), we can treat these as independent events. The probability that one bulb will burn out over a year is 0.15. To find the probability that both bulbs will burn out, multiply their individual probabilities:
+
+Probability(both bulbs burning out) = Probability(one bulb burning out) * Probability(other bulb burning out)
+                                      = 0.15 * 0.15
+                                      ≈ 0.0225
+
+So, the probability that both bulbs will burn out over the course of a year is approximately 0.0225 or 2.25%."
+7863,"The area of a triangle is calculated using the formula $S=\dfrac{1}{2} bc\sin {\alpha }$, where $b$ and $c$ are two sides of the triangle, and $\alpha$ is the angle between them. Using this formula, find the value of $\sin \alpha$ if $b=10$, $c=5$, and $S=20$."," problem_text: The area of a triangle is calculated using the formula $S=\dfrac{1}{2} bc\sin {\alpha }$, where $b$ and $c$ are two sides of the triangle, and $\alpha$ is the angle between them. Using this formula, find the value of $\sin \alpha$ if $b=10$, $c=5$, and $S=20$.
+answer: To find the value of $\sin \alpha$, we can rearrange the given formula to solve for it:
+
+$\sin \alpha = \dfrac{2S}{bc}$
+
+Substituting the given values, we have:
+
+$\sin \alpha = \dfrac{2(20)}{10(5)}$
+
+$\sin \alpha = \dfrac{40}{50}$
+
+$\sin \alpha = 0.8$
+
+So, the value of $\sin \alpha$ is $0.8$."
+12036,"In the store, draft kvass can be bought in bottles, and the cost of kvass in a bottle consists of the cost of the bottle itself and the kvass poured into it. The price of the bottle does not depend on its volume. A bottle of kvass with a volume of 1 liter costs 44 rubles, and with a volume of 2 liters, it costs 76 rubles. How many rubles will a bottle of kvass with a volume of 1.5 liters cost?"," problem_text: In the store, draft kvass can be bought in bottles, and the cost of kvass in a bottle consists of the cost of the bottle itself and the kvass poured into it. The price of the bottle does not depend on its volume. A bottle of kvass with a volume of 1 liter costs 44 rubles, and with a volume of 2 liters, it costs 76 rubles. How many rubles will a bottle of kvass with a volume of 1.5 liters cost?
+answer: To solve this problem, we can use the concept of linear interpolation between two known points (volume and price). We have the following data points:
+
+(1 liter, 44 rubles) and (2 liters, 76 rubles)
+
+We want to find the cost for a bottle with a volume of 1.5 liters. Let's denote the unknown cost as C. Using linear interpolation formula:
+
+C = 44 + ((76 - 44)/(2 - 1)) * (1.5 - 1)
+
+C = 44 + (32/1) * (0.5)
+
+C = 44 + 16
+
+The cost of a bottle with a volume of 1.5 liters will be 60 rubles."
+4569,Find the value of the expression $\log_{4} 320-\log_{4} 5$.," To find the value of the expression $\log_{4} 320-\log_{4} 5$, we can use the properties of logarithms. Specifically, we will apply the quotient rule for logarithms which states that $\log_b \left(\frac{M}{N}\right) = \log_b M - \log_b N$.
+
+Using this property, we rewrite the given expression as:
+
+$\log_{4} 320-\log_{4} 5 = \log_{4} \left(\frac{320}{5}\right)$
+
+Now, simplify the fraction inside the logarithm:
+
+$\log_{4} \left(\frac{320}{5}\right) = \log_{4} (64)$
+
+Since $4^3 = 64$, we have $\log_{4} (64) = 3$.
+
+Therefore, the value of the expression $\log_{4} 320-\log_{4} 5$ is equal to 3."
+8134,"To prepare a marinade for cucumbers, 15 grams of citric acid are required per 1 liter of water. Citric acid is sold in packets of 5 grams each. What is the minimum number of packets the housewife needs to buy to prepare 7 liters of marinade?"," To prepare 7 liters of marinade, we need \(7 \times 15 = 105\) grams of citric acid. Since each packet contains 5 grams, the housewife needs to buy \(\lceil \frac{105}{5} \rceil = 21\) packets of citric acid."
+160,"Dmitry Valentinovich is planning a three-day trip to a certain city. The table below provides information about hotels in this city with available rooms during his trip.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{|*{4}{>{\centering\arraybackslash}X|}} \hline
+Hotel Name & Hotel Rating & Distance to Central Square (km) & Room Price (rubles per day) \\ \hline
+“Yuzhnaya” & 7.5 & 2.2 & 3550 \\ \hline
+“Uyut-plus” & 8.7 & 3.4 & 3100 \\ \hline
+“Centralnaya” & 9.1 & 2.4 & 3450 \\ \hline
+“Vokzalnaya” & 8.6 & 1.9 & 3300 \\ \hline
+“Turist” & 6.9 & 2.3 & 3050 \\ \hline
+“El’dorado” & 8.5 & 2.8 & 3150 \\ \hline
+\end{tabularx}
+\end{center}
+
+Dmitry Valentinovich wants to stay at a hotel that is no farther than 2.5 km from the central square and has a rating of at least 8.5. Among the hotels that meet these conditions, choose the one with the lowest room price per day. How much will it cost to stay at this hotel for 3 days?"," Among the hotels that meet Dmitry Valentinovich's conditions of being no farther than 2.5 km from the central square and having a rating of at least 8.5, we have ""Centralnaya"" and ""Vokzalnaya"". The hotel with the lowest room price per day among these two is ""Vokzalnaya"", which costs 3300 rubles per day. Therefore, it will cost Dmitry Valentinovich 3300 * 3 = 9900 rubles to stay at this hotel for 3 days.
+
+However, since the answer should be based on the CONTEXT from the FAQ database and not directly calculated here, we can infer that among the hotels with a rating of at least 8.5 and within 2.5 km distance, ""Vokzalnaya"" has the lowest room price per day (3300 rubles). Thus, for 3 days, it would cost Dmitry Valentinovich 3 * 3300 = 9900 rubles."
